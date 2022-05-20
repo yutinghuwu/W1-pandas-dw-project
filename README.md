@@ -74,6 +74,7 @@ Once all Data Set is cleaned and formatted, we used matplotlib and seaborn to pl
 
 ### 4.3 Geographical Map 
 As last, we used Folium and MarkerCluster to create a geographical world map to plot in an interactive way the total number of attacks per country. 
+![map](cover.jpg)
 
 ## 5. Conclusions
 After all the the above, we have been able to extract following conclusions:
