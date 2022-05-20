@@ -39,13 +39,21 @@ The resulting data frame has a total of 4120 registers and 9 columns.
 It was expected to have columns with some missing data, so after our cleaning, we checked how many null values were present per column, by using df.isnull().sum(), resulting in: 
 
 Case Number       0
+
 Year              0
+
 Type              2
+
 Country          11
+
 Activity        253
+
 Sex             350
+
 Age            1298
+
 Fatal (Y/N)       9
+
 Species        1588
 
 ### 3.3 Formatting Columns
