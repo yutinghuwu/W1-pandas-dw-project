@@ -48,6 +48,7 @@ Age            1298
 Fatal (Y/N)       9
 Species        1588
 
+
 ### 3.3 Formatting Columns
 In order to interpretate and analyze the data correctly, we needed to format the data to have standardized type of data and meaning.
 
