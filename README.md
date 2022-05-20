@@ -94,7 +94,7 @@ After all the the above, we have been able to extract following conclusions:
 - Top 3 activities that cause fatalities are: sea disaster, swimming and snorkelling (activities where people do not take without additional equipment).
 - Following Sea Disaster, unprovoked events are the most common type of event that causes fatality.
 - The maximum number of attacks is in people between 15 and 25 years old.
-- The majority (>80%) of attacks occur in people of male gender. However, although most attacks are registered in male gener, the % fatality is almost identical for both men and women.
+- The majority (>80%) of attacks occur in people of male gender. However, although most attacks are registered in male gender, the % fatality is almost identical for both men and women.
 - Only 18% of all shark species have been registered to cause fatality.
 - The shark species with highest number of attacks is the White shark (40%). 
 - The most dangerous sharks, who attacked the most are: White shark, tiger shark, bull shark, nurse shark, bronze whaler shark. Except nurse shark, all of them caused fatalities.
