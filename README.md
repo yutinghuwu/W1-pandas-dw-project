@@ -32,7 +32,7 @@ Following steps were taken to clean the data:
 - df.drop() to drop the columns that are not relevant to our study
 - df.dropna() to eliminate registers containing all null values
 - Filter by Year to eliminate registers from before 1950
-- Elimiate registers that are not considered attacks (named as 'Invalid)
+- Elimiate registers that are not considered attacks (named as 'Invalid')
 
 The resulting data frame has a total of 4120 registers and 9 columns.
  
