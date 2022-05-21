@@ -13,7 +13,6 @@ def format_year(year_column):
     import pandas as pd
     return (pd.to_datetime(year_column, format='%Y')).dt.year
    
-###modificar invalid
 def format_type(Type_column):
     Type_column.replace('Boat', 'Watercraft', inplace=True)
     Type_column.replace('Boating', 'Watercraft', inplace=True)
@@ -105,7 +104,6 @@ def get_country_codes(clean_country_column):
             codes.append('UNKNOWN')
     return codes
 
-#Mirar por que sale standing en vez de wading
 def format_activity(activity_column, df):
     import numpy as np
     import pandas as pd
@@ -148,7 +146,7 @@ def format_age(age_column):
 def format_fatal(fatal_column, df):
     import numpy as np
     x = set(df.groupby(fatal_column).agg({fatal_column: ['count']}).index)
-    df[fatal_column].replace(list(x - {'Y', 'N'}), np.nan, inplace=True)
+    df[fatal_column].replace(list(x-{'Y', 'N'}), np.nan, inplace=True)
     return
 
 def format_species(species_column, df):
