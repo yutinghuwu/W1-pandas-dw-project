@@ -84,7 +84,7 @@ As last, we used Folium and MarkerCluster to create a geographical world map to 
 ![map](map.jpg)
 
 ## 5. Conclusions
-After all the the above, we have been able to extract following conclusions:
+After all the above, we have been able to extract following conclusions:
 - Surfing is the sport with the highest number of registered shark attacks (33.2%)
 - Despite this, Surfing is in the 7th out of 8 positions of activities that cause fatality.
 - Top 3 activities that cause fatalities are: sea disaster, swimming and snorkeling (activities where people do not take additional equipment).
