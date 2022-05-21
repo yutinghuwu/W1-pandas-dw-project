@@ -26,13 +26,17 @@ After examining the data in the previous section we decided to clean the data ba
 - Keep the columns that will be relevant to our study (Case Number, Year, Type, Country, Activity, Sex, Age, Fatal(Y/N), Species).
 - Focus the analysis on the data registered after 1950.
 - Eliminate registers with empty/ not valid data.
+- After cleaning the data according to the above criteria, we will:
+    - Describe each variable
+    - Analyze which factors may contribute to the fatility rate of shark attacks
+    - Analyze the information by country
 
 ### 3.2 Selecting Columns and Eliminating Registers
 Following steps were taken to clean the data:
 - df.drop() to drop the columns that are not relevant to our study
 - df.dropna() to eliminate registers containing all null values
 - Filter by Year to eliminate registers from before 1950
-- Elimiate registers that are not considered attacks (named as 'Invalid')
+- Eliminate registers that are not considered attacks (named as 'Invalid')
 
 The resulting data frame has a total of 4120 registers and 9 columns.
  
@@ -49,7 +53,9 @@ In addition, we included new columns:
 - Month
 - Season in each geographical area
 
-All functions used to format columns have been included in a separate file src.py, which is then imported into main *ipynb file.
+The final data frame has a total of 4050 registers and 14 columns.
+
+All functions used to format columns have been included in a separate file src.py, which is then imported into main notebook analysis.ipynb file.
 
 ## 4. Data Visualization
 Once all Data Set is cleaned and formatted, we used matplotlib and seaborn to plot our variables in univariate and bivariate graphs, in order to extract meaningful insights about the data and to present it in a visual manner.
@@ -79,17 +85,18 @@ As last, we used Folium and MarkerCluster to create a geographical world map to 
 
 ## 5. Conclusions
 After all the the above, we have been able to extract following conclusions:
-- Surfing is the sport with the highest probability of shark attack (33.2%)
-- Despite this, Surfing is in the 7th position of activity that causes fatality.
-- Top 3 activities that cause fatalities are: sea disaster, swimming and snorkelling (activities where people do not take without additional equipment).
+- Surfing is the sport with the highest number of registered shark attacks (33.2%)
+- Despite this, Surfing is in the 7th out of 8 positions of activities that cause fatality.
+- Top 3 activities that cause fatalities are: sea disaster, swimming and snorkeling (activities where people do not take additional equipment).
 - Following Sea Disaster, unprovoked events are the most common type of event that causes fatality.
-- The maximum number of attacks is in people between 15 and 25 years old.
-- The majority (>80%) of attacks occur in people of male gender. However, although most attacks are registered in male gender, the % fatality is almost identical for both men and women.
-- Only 18% of all shark species have been registered to cause fatality.
-- The shark species with highest number of attacks is the White shark (40%). 
+- 40% of attacks occur to people between 15 and 25 years old.
+- 63% of attacks occur to people between 10 and 30 years old.
+- The majority (86.7%) of attacks occur in people of male gender. However, although most attacks are registered in male gender, the % fatality is almost identical for both men and women.
+- Only 15% of all shark attacks have been registered to cause fatality.
+- The shark species with highest number of attacks is the White shark
 - The most dangerous sharks, who attacked the most are: White shark, tiger shark, bull shark, nurse shark, bronze whaler shark. Except nurse shark, all of them caused fatalities.
-- Almost half (40.2%) of the attacks occur in the summer season, followed by 27.2% in the spring season.
-- The top3 countries having shark attacks are: USA, Australia, South Africa.
+- 40.2% of the attacks occur in the summer season, followed by 27.2% in the spring season.
+- The top 3 countries with most registered shark attacks are: USA, Australia, South Africa.
 
 ## 6. Data export
 To finalize our project, we exported the clean Dataset into a new csv file named 'attacks_clean.csv'.
